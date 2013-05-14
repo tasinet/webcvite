@@ -1,0 +1,116 @@
+{"meta":{"title":"Christopher Valles - Zend PHP Certified Engineer - Resumee","description":"Christopher Valles personal website","keywords":"christopher valles, cv, curriculum, developer, php, mysql"},
+
+"title":"Christopher Valles","subtitle":"PHP Developer",
+
+"footer":"© 2013 Christopher Valles. All rights reserved.",
+
+"sections":[
+
+	{"title":"Personal Details","type":"personal","content":[
+		{"Name":"Christopher Valles"},
+		{"Day of Birth":"17th February 1987"},
+		{"Nationality":"Spanish"},
+		{"Phone":"+44 7449935303"},
+		{"Email":"hello@christophervalles.com"},
+		{"Languages":["English - Professional working proficiency","Spanish - Native or bilingual proficiency","Catalan - Native or bilingual proficiency"]}
+	]},
+
+	{"title":"Personal Profile","type":"text","content":[
+		"I’m a Zend PHP Certified Engineer focused on security with experience on payment processors, distributed queues, high traffic websites and Amazon AWS. A few years ago I get my certification as Zend PHP Certified Engineer but I'm also certified as Apple Certified Support Professional and Apple Certified Technical Coordinator. ",
+		"Right now I spend most of my time working at GREE UK, Ltd. as a game backend engineer but also writing my first book about Zend Framework 2 that will be published by Packt Publishing. After that if I still have time I love to cook.",
+		"<p>Do not hesitate to follow me on <a title=\"My Twitter profile\" href=\"http://www.twitter.com/tbhot3ww\">Twitter</a> or throw me an <a title=\"Email me\" href=\"mailto:hello@christophervalles.com\">email</a>.</p>"
+	]},
+	
+	{"title":"Work Experience","type":"timeline","content":[
+		{"title":"Game backend engineer","subtitle":"GREE UK, Ltd, Full-Time","time":"October 2012 - Present","content":[
+			"In this company I'm part of the studio backend team and we are focused on handling all the data and backend processes related with our games.",
+			"We design, code, test and deploy all the backend side of the GREE UK mobile games.",
+			"While developing our first EU game I was in charge of all the tasks related with path finding, path validation, node placement and map generation using python."
+		]},
+		{"title":"CTO","subtitle":"Familia Facil, Full-Time","time":"October 2011 - October 2012","content":[
+			"In this startup I’m in charge of all the technical lead, coordinating developers, designers, ux managers, seo, content team, i18n team and meeting with the CEO and business persons to plan and develop the company priorities. The project is built using Zend Framework, a few Amazon AWS API’s and gearman for parallel distributed processing of images, emails, analytics, uploads, metrics, etc.",
+			"As I’m more developer than manager I also get involved in the development process along with the team usually taking care about the payment gateway and gearman stuff. We do code review of all the changes and we maintain a test environment using PHPUnit, Mink, Goutte and Sahi.",
+			"On the server side, I manage two big boxes, one for staging and another for production us- ing nginx + php-fpm + gearman + memcache + apc + mysql + capistrano + monit + munin + new relic.",
+			"On the management side we use JIRA and Confluence for tickets and wiki, bitbucket with git for the code repository and pomodoro for the time management."
+		]},
+		{"title":"PHP Developer","subtitle":"CityScout Networks, Full-Time","time":"July 2010 - October 2011","content":[
+			"In this startup I was mainly focused in modelmanagement.com and casting.net projects. modelmanagement.com is a high traffic social network to connect models, photographers and model agencies with more than 58k models, 10k photographers, 3k agencies, 1.5M unique images and we had 1 million pageviews per month.",
+			"Normally I take care about the following aspects of the projects:",
+			{"type":"list","content":[
+				"Payment gateways",
+				"Payment functionalities like multi-currency, coupon code management, payment reports, etc.",
+				"Backend improvements",
+				"Server maintenance",
+				"Integration of Amazon API's",
+				"Refactoring i18n engine"
+			]},
+			"In casting.net project I was the responsible about all the aspects of the project, from the architecture to the last small part included server setup and maintenance. I can say that is made on top of Zend Framework and is using Amazon S3 + Amazon Cloud Front as the CDN and Amazon SNS as a internal notification system, also we used gearman to do pararell processing of images, emails, analytics, etc. The deploy is done using capistrano and the project is running on a linux machine in a Zend Server environment."
+		]},
+		{"title":"PHP Developer","subtitle":"Vendo, Full-Time","time":"August 2009 - July 2010","content":[
+			"In Vendo I was working on the frontend, backoffice and fulfillment engine of the platform. The project was used in adult content websites and online stores as a payment gateway and site management in a high traffic environment with 1 million visits per day and more than 3 million pageviews per day. We were working using Scrum as an Agile methodology to develop new features and Zend Framework as the base framework. ",
+			"The parts of the system I was involved are:",
+			{"type":"list","content":[
+				"Frontend i18n an l10n with GeoIp",
+				"New fulfillment engine based on a plugin like approach",
+				"Backoffice improvements like user management, roles, permissions, store configuration, etc."
+			]}
+		]},
+		{"title":"PHP Developer/IT support","subtitle":"Transit Projectes, Full-Time","time":"January 2005 - August 2009","content":[
+			"In Transit Projectes I had two main roles. First I was a PHP Developer and we were doing websites for universities and associations. Then my role changed and I was in charge of the IT support of the company. In the period of sysadmin I migrate the whole infrastructure, more than 50 computers and 5 servers, from windows to Mac OS.",
+			"The main tasks were:",
+			{"type":"list","content":[
+                                "IT support to all the company",
+                                "Management of the network",
+				"Management of the infrastructure (XServer, Open Directory, Kerberos, DNS, etc.)",
+				"Management of the webserver of the company",
+				"Development and maintenance of websites for associations and universisties"
+                        ]}
+		]}
+	]},
+
+	{"title":"Technical Skills","type":"list","content":[
+		{"title":"Programming Languages","content":["XHTML, CSS 2.0, Javascript, Object Oriented Javascript, PHP 5, SQL, XPath, Python, Assembler, PIC Assembler, Basic, QBasic, PBasic, Visual Basic 6, C, XML, YAML, Bash, Objective C"]},
+		{"title":"Databases","content":["SQLite, MySQL, MongoDB"]},
+		{"title":"Frameworks","content":["CodeIgniter, CakePHP, Lithium, Zend Framework, Symfony, JQuery, Smarty, PHPUnit, Silex, Twig, Flight PHP."]},
+		{"title":"Libraries","content":["GeoIP, Paypal, Amazon API's, Google API's, FPDF."]},
+		{"title":"OS","content":["Linux, Mac OSX"]},
+		{"title":"Others","content":["Wordpress, Ajax, Scrum, Poker planning, Pomodoro Technique, Subversion, Git, TDD, Capistrano, Regex, Gearman."]}
+	]},
+
+
+	{"title":"Publications","type":"timeline","content":[
+		{"title":"Zend Framework 2 Application Development","subtitle":"Packt Publishing","time":"Q4 2013","content":["Zend Framework 2 Application Development is a hands-on book that guides you on how to build your own social network. By the time you finish the book and your project you will have used more than 90% of the components of the framework and you will have enough knowledge to build the next kick ass application that will shake internet."]}
+	]},
+
+	{"title":"Projects","type":"timeline","content":[
+		{"title":"TweetTrendings","subtitle":"http://tweettrendings.com","time":"July 2011","content":[
+			"TweetTrendings automatically mines the net to explain why a word or phrase has become a Twitter Trending Topic. In addition, Trending Topics also provides a forum in which users can explain trending topics or add to the explanations provided by other users. Finally, TweetTrendings provides historical trending data that you can consult in order to understand how past Trending Topics came to be."
+		]}
+	]},
+
+	{"title":"Courses","type":"timeline","content":[
+		{"title":"Machine Learning (Stanford University)","time":"April 2013 - present","content":[
+			"This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include:",
+			{"type":"list","content":[
+				"Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks).",
+				"Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning).",
+				"Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
+			]},
+			"The course also draw from numerous case studies and applications to also learn how to apply learning algorithms to building smart robots (perception, control), text understanding (web search, anti-spam), computer vision, medical informatics, audio, database mining, and other areas."
+		]},
+		{"title":"TetuanValley Startup School","time":"2010","content":[
+			"My team and I started an idea and six weeks later we finished with a multi-touch table prototype like the Microsoft surface but in a low cost approach."
+		]}
+	]},
+
+	{"title":"Education","type":"timeline","content":[
+		{"title":"Computer Science Degree","time":"2007 - present","content":[
+			"In 2007 I started the degree in the Open University of Catalunya. Each semester I continue with each subject of the degree."
+		]}
+	]},
+
+	{"title":"Organizations","type":"timeline","content":[
+		{"title":"Tetuan Valley Startup School","time":"April 2010 - present","content":[]}
+	]}
+	
+]}
