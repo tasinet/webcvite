@@ -12,13 +12,13 @@
 		{"Nationality":"Spanish"},
 		{"Phone":"+44 7449935303"},
 		{"Email":"hello@christophervalles.com"},
-		{"Languages":["English - Professional working proficiency","Spanish - Native or bilingual proficiency","Catalan - Native or bilingual proficiency"]}
+		{"Languages":"<span class=\"float-left\">English - Professional working proficiency<br>Spanish - Native or bilingual proficiency<br>Catalan - Native or bilingual proficiency</span>"}
 	]},
 
-	{"title":"Personal Profile","type":"text","content":[
+	{"title":"Professional Profile","type":"text","content":[
 		"I’m a Zend PHP Certified Engineer focused on security with experience on payment processors, distributed queues, high traffic websites and Amazon AWS. A few years ago I get my certification as Zend PHP Certified Engineer but I'm also certified as Apple Certified Support Professional and Apple Certified Technical Coordinator. ",
 		"Right now I spend most of my time working at GREE UK, Ltd. as a game backend engineer but also writing my first book about Zend Framework 2 that will be published by Packt Publishing. After that if I still have time I love to cook.",
-		"<p>Do not hesitate to follow me on <a title=\"My Twitter profile\" href=\"http://www.twitter.com/tbhot3ww\">Twitter</a> or throw me an <a title=\"Email me\" href=\"mailto:hello@christophervalles.com\">email</a>.</p>"
+		"Do not hesitate to follow me on <a title=\"My Twitter profile\" href=\"http://www.twitter.com/tbhot3ww\">Twitter</a> or throw me an <a title=\"Email me\" href=\"mailto:hello@christophervalles.com\">email</a>."
 	]},
 	
 	{"title":"Work Experience","type":"timeline","content":[
