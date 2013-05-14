@@ -1,0 +1,81 @@
+html {
+     width:100%
+}
+
+a {
+    color: #000;
+}
+
+img {
+    border: 0;
+}
+
+body {
+    background-color:#fff;
+    padding: 25px;
+    color: #000;
+}
+
+#name {
+    padding-top: 0;
+}
+
+#wrap {
+    width: 100%;
+    margin: 10px;
+    float: none;
+    box-shadow:0 0 0 transparent;
+}
+#header {
+    padding: 0;
+}
+#footer, #block-top, #picture-of-me {
+    display: none;
+}
+
+.divider {
+    margin: 10px 0 20px 0;
+    height: 0;
+    border-top: 0;
+    border-bottom: 5px solid #ddd;
+}
+
+#content {
+    padding: 0;
+}
+
+.col-1 {
+    width: 100%;
+}
+
+.cv-section {
+    margin-bottom: 20px;
+}
+
+h2.cv-section-name {
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: none;
+}
+
+#cv h2.cv-section-name {
+    float: none;
+    width: 100%;
+    border-top: none;
+    padding-top: 0;
+}
+#cv ul.cv-section-items {
+    float: none;
+    width: 100%;
+}
+#cv #technical-skills ul.cv-section-items li span.topic:after {
+    content: ":";
+}
+#cv #technical-skills ul.cv-section-items li span.topic {
+    width: auto;
+    margin-right: 5px;
+}
+
+.pagebreak { 
+    page-break-before: always;
+}

@@ -1,0 +1,208 @@
+/* Reset
+-------------------------------------------------- */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline
+}
+:focus {
+    outline: 0
+}
+body {
+    line-height: 1;
+    color: black;
+    background: white
+}
+ol,ul {
+    list-style: none
+}
+blockquote:before,blockquote:after,q:before,q:after {
+    content: ""
+}
+
+/* General
+-------------------------------------------------- */
+body {
+    background-color: #bbb;
+    color:#333;
+    font: 12px Arial,Helvetica,sans-serif;
+    line-height: 22px;
+    padding: 50px 0;
+}
+a {
+    color: #2F6AB3;
+}
+a:hover {
+    color: #2E4E69;
+}
+
+/* Clear Fix */
+.fixed:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.fixed {
+    display: block;
+}
+.fixed {
+    min-height: 1%;
+}
+* html .fixed {
+    height: 1%;
+}
+.float-left {
+    float: left;
+}
+.col-1 {
+    width: 100%;
+}
+.divider,.divider2 {
+    height: 15px;
+    margin: 40px -35px 0 -35px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #F8F8F8;
+}
+.divider {
+    clear: both;
+}
+.divider2 {
+    margin-bottom: 30px;
+}
+
+/* Layout
+-------------------------------------------------- */
+#wrap {
+    width: 960px;
+    margin: 0 auto;
+    z-index: 100;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 0 10px #333;
+    -moz-box-shadow: 0 0 10px #333;
+    -webkit-box-shadow: 0 0 10px #333;
+}
+#header {
+    padding: 0 35px 0px 35px;
+}
+#block-top {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    border-top: none;
+    height: 30px;
+    margin-bottom: 40px;
+}
+#personal-info {
+}
+#picture-of-me {
+    float: left;
+    display: block;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-right: 20px;
+}
+#picture-of-me img {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+#name {
+    font-size: 40px;
+    padding-top: 30px;
+    letter-spacing: -2px;
+    color: #444444;
+    margin-bottom: 20px;
+}
+#what-you-do {
+    font-size: 18px;
+    font-weight: normal;
+    color: #3279BB;
+}
+#content {
+    padding: 30px 35px 30px 35px;
+}
+#footer {
+    padding: 0px 35px 30px 35px;
+    height: 80px;
+}
+#copyright {
+    color: #666;
+    float: left;
+}
+
+/* CV
+-------------------------------------------------- */
+.cv-section {
+    margin-bottom: 25px;
+}
+.last {
+    margin-bottom: 0px;
+}
+li.cv-item p {
+    margin-bottom: 10px;
+}
+li.cv-item ul {
+    list-style: inside;
+    padding-bottom: 10px;
+    list-style-type: disc;
+}
+h2.cv-section-name {
+    text-transform: uppercase;
+    font-size: 22px;
+    padding-bottom: 10px;
+    color: #2F6AB3;
+}
+ul.cv-section-items {
+    list-style: outside;
+    list-style-type: none;
+}
+ul.cv-section-items li.cv-item {
+    border-top: 1px solid #DBDEE2;
+    padding: 10px 0 10px 15px;
+}
+ul.cv-section-items li.cv-item h4 {
+    font-size: 12px;
+    float: right;
+    font-weight: normal;
+    color: #666;
+}
+ul.cv-section-items li.cv-item h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #272D36;
+}
+ul.cv-section-items li.cv-item h3 {
+    font-size: 14px;
+    font-style: italic;
+    padding-bottom: 10px;
+    font-weight: normal;
+}
+ul.cv-section-items li span.topic {
+    font-weight: bold;
+    display: block;
+    float: left;
+    width: 150px;
+}
+#cv h2.cv-section-name {
+    border-top: 3px solid #DBDEE2;
+    width: 200px;
+    float: left;
+    padding-top: 15px;
+}
+#cv ul.cv-section-items {
+    margin-top: 1px;
+    width: 690px;
+    float: right;
+}
+#cv #technical-skills ul.cv-section-items li span.topic {
+    width: 100%;
+}
