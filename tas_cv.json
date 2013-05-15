@@ -1,0 +1,77 @@
+{"meta":{"title":"Tasos Bitsios - Software Engineer - Resumee","description":"Tasos Bitsios personal website","keywords":"tasos bitsios, cv, curriculum, developer, php, mysql"},
+
+"title":"Tasos Bitsios","subtitle":"Software Engineer",
+
+"footer":"© 2013 Tasos Bitsios. All rights reserved.",
+
+"sections":[
+
+	{"title":"Personal Details","type":"personal","content":[
+		{"Name":"Tasos Bitsios"},
+		{"Day of Birth":"25th June 1985"},
+		{"Nationality":"Greek"},
+		{"Phone":"+44 7906 69 18 09"},
+		{"Email":"tasos@bitsios.com"},
+		{"Languages":"<span class=\"float-left\">English - Excellent<br>Greek - Excellent<br/>German - Somewhat</span>"}
+	]},
+
+	{"title":"Professional Profile","type":"text","content":[
+		"Software Engineer, focused on web technologies and scalability.",
+		"Keen problem solver with strong analytical skills."
+	]},
+	
+	{"title":"Work Experience","type":"timeline","content":[
+		{"title":"Backend Software Engineer","subtitle":"GREE UK, Ltd, Full-Time","time":"August 2012 - Present","content":[
+			"We were doing code() of SERVER for $game"
+		]},
+		{"title":"Software Engineer","subtitle":"Fanatix Ltd, Full-Time","time":"November 2009 - May 2012","content":[
+			"Core developer. Involved from day one, I designed, developed, administered and maintained the Fanatix backend alongside CTO Peter Bevan.",
+			{"type":"list","content":[
+				"NoSQL data design, optimisation for scalability, administration (sharded MongoDB).",
+				"Worked with PHPTAL, jQuery Templates, Web Sockets, Protocol Buffers, third party APIs.",
+				"Facebook integration: Data import, social plugins, data export (Open Graph actions).",
+				"Designed & Developed the Fanatix REST API (\"FREST\"), which powers the mobile clients (iPhone, iPad).",
+				"Mentored a graduate developer for two months."
+			]}
+		]}
+	]},
+	{"title":"Projects","type":"timeline","content":[
+		{"title":"YouRad.io","subtitle":"http://YouRad.io","time":"2011 - present","content":[
+			"This this this and that."
+		]},
+		{"title":"Derpback","subtitle":"http://derpback.com","time":"2012","content":[
+			"Feedback this this this and that."
+		]}
+	]},
+
+	{"title":"Technical Skills","type":"list","content":[
+		{"title":"Programming Languages","content":["PHP, Javascript, Node.js, Bash Scripting, Python, Ruby, Java, C, Objective C"]},
+		{"title":"Data Stores","content":["MongoDB, SQL/MySQL, SQLite3, Memcached, Redis"]},
+		{"title":"Libraries","content":["Gearman"]},
+		{"title":"Platforms","content":["Linux, Mac OSX, Windows, Virtualized Environments (AWS, Rackspace, Heroku)"]},
+		{"title":"Others","content":[
+			{"type":"list","content":[
+				"Scrum",
+				"Software design patterns",
+				"Data modelling, Relational & NoSQL database design",
+				"Data APIs (Facebook Graph, FQL, Twitter, Google Data) & Social Integration",
+				"HTML, CSS, DOM, XML, JSON, Protocol Buffers",
+				"Administration: Linux, Apache, nginx, lighttpd, MySQL, MongoDB",
+				"Search Engine Optimization principles"
+			]}
+		]}
+	]},
+
+	{"title":"Education","type":"timeline","content":[
+		{"title":"MSc Information Security","subtitle":"UCL (University College London)","time":"200X - 200X","content":[
+			"This that UCL"
+		]},
+		{"title":"BSc Computer Science","subtitle":"University of Warwick","time":"200X - 200X","content":[
+			"This that Warwick"
+		]},
+		{"title":"International Baccalaureate","subtitle":"Moraitis International Baccalaureate School","time":"200X - 200X","content":[
+			"This that IB"
+		]}
+	]}
+
+]}
