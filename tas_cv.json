@@ -36,41 +36,43 @@
 	]},
 
 	{"title":"Projects","type":"timeline","content":[
-		{"title":"YouRad.io","subtitle":"http://YouRad.io","time":"2011 - present","content":[
-			"This this this and that."
+		{"title":"YouRad.io","subtitle":"http://youRad.io","time":"2011 - present","content":[
+			"I started YouRad.io as a personal project in October 2011. I developed this \"Social Media Player\" to aggregate media links from social accounts (Facebook) for consumption. Recognises Youtube, Soundcloud and Vimeo links. It uses a heuristic algorithm to decide \"music/not music\" (and separate the two) and offers \"star\", \"tag\", \"like\" and \"comment\" functionality. The app-like interface, written in Javascript, allows for navigation without interrupting the embedded player. Front-end styled with Bootstrap (by Twitter). Served from nginx and MongoDB, hosted on Amazon EC2. <b>Currently seeking funding.</b>"
 		]},
-		{"title":"Derpback","subtitle":"http://derpback.com","time":"2012","content":[
-			"Feedback this this this and that."
+		{"title":"Derpback","subtitle":"http://www.derpback.com","time":"2012","content":[
+			"A feedback-collecting service. First rails project, hosted on heroku."
+		]},
+		{"title":"Twitter Trend Viewer","subtitle":"http://www.twittertrendviewer.com","time":"2012","content":[
+			"Real-time viewer of trending topic tweets. Node.js/Twitter streaming API/websockets. (unstyled)"
 		]}
 	]},
 
 	{"title":"Technical Skills","type":"list","content":[
-		{"title":"Programming Languages","content":["PHP, Javascript, Node.js, Bash Scripting, Python, Ruby, Java, C, Objective C"]},
-		{"title":"Data Stores","content":["MongoDB, SQL/MySQL, SQLite3, Memcached, Redis"]},
-		{"title":"Libraries","content":["Gearman"]},
-		{"title":"Platforms","content":["Linux, Mac OSX, Windows, Virtualized Environments (AWS, Rackspace, Heroku)"]},
+		{"title":"Programming Languages","content":["PHP, Javascript/Node.js, Bash, Python, Ruby, Clojure, Java, C, Objective C, Brainfuck"]},
+		{"title":"Data Stores","content":["MongoDB, (My)SQL, Memcache, Redis, SQLite3"]},
+		{"title":"Frameworks","content":["(PHP) CodeIgniter, Kohana 3, (JS) Angular, jQuery/UI/Mobile, PhoneGap/Cordova (Ruby) Rails  (other) Bootstrap, Gearman"]},
+		{"title":"Platforms","content":["Linux, Mac OS X, Windows, Virtualized Environments (Vagrant/Chef, AWS, Rackspace, Heroku), iOS, Android"]},
+		{"title":"APIs","content":["Facebook Graph/FQL, Twitter, Google Analytics/Adsense/Data, YouTube, Soundcloud, Vimeo"]},
 		{"title":"Other Stuff","content":[
 			{"type":"list","content":[
-				"Scrum",
-				"Software design patterns",
 				"Data modelling, Relational & NoSQL database design",
-				"Data APIs (Facebook Graph, FQL, Twitter, Google Data) & Social Integration",
-				"HTML, CSS, DOM, XML, JSON, Protocol Buffers",
+				"Agile Development, Test Driven Development",
 				"Administration: Linux, Apache, nginx, lighttpd, MySQL, MongoDB",
+				"HTML, CSS, DOM, XML, JSON, Protocol Buffers",
 				"Search Engine Optimization principles"
 			]}
 		]}
 	]},
 
 	{"title":"Education","type":"timeline","content":[
-		{"title":"MSc Information Security","subtitle":"UCL (University College London)","time":"200X - 200X","content":[
-			"This that UCL"
+		{"title":"MSc Information Security","subtitle":"UCL (University College London)","time":"2006 - 2007","content":[
+			"Master’s Thesis: Anti-Phishing based on Content Correlation. Research in Phishing and anti-Phishing techniques; development of a functioning content-correlating crawler which provides anti-Phishing protection by comparing page content with an index of white-listed sites, that are not to be imitated. Proof of concept code in PHP, demo client plug-in for Mozilla Firefox."
 		]},
-		{"title":"BSc Computer Science","subtitle":"University of Warwick","time":"200X - 200X","content":[
-			"This that Warwick"
+		{"title":"BSc Computer Science","subtitle":"University of Warwick","time":"2003 - 2006","content":[
+			"Final year project: I developed a prototype PGP-secured Instant Messaging service in Java"
 		]},
-		{"title":"International Baccalaureate","subtitle":"Moraitis International Baccalaureate School","time":"200X - 200X","content":[
-			"This that IB"
+		{"title":"International Baccalaureate","subtitle":"Moraitis International Baccalaureate School","time":"2001 - 2003","content":[
+			"High Level: Math, Physics, Greek. Standard Level: English, Economics, Computer Science."
 		]}
 	]}
 
