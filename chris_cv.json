@@ -79,7 +79,8 @@
 
 
 	{"title":"Publications","type":"timeline","content":[
-		{"title":"Zend Framework 2 Application Development","subtitle":"Packt Publishing","time":"Q4 2013","content":["Zend Framework 2 Application Development is a hands-on book that guides you on how to build your own social network. By the time you finish the book and your project you will have used more than 90% of the components of the framework and you will have enough knowledge to build the next kick ass application that will shake internet."]}
+		{"title":"Zend Framework 2 Application Development","subtitle":"Packt Publishing","time":"Q4 2013","content":["Zend Framework 2 Application Development is a hands-on book that guides you on how to build your own social network. By the time you finish the book and your project you will have used more than 90% of the components of the framework and you will have enough knowledge to build the next kick ass application that will shake internet."]},
+		{"title":"Forms with dynamic fields in Zend Framework 1","subtitle":"php|architect magazine","time":"April 2012","content":["Nowadays, it is increasingly common to find websites with JavaScript enhanced forms. JavaScript allows us to create custom interactions with the usual fields and create complex ways to gather data – for example, allowing the user to attach as many files as they want. These kinds of interactions present some problems we have to address; we don’t know beforehand how many files will be attached, and that affects the processing of the form, the data validation, and the form repopulation in case of error. What about integrating that inside Zend Framework? Sounds hard, but is easier than it seems.."]}
 	]},
 
 	{"title":"Projects","type":"timeline","content":[
@@ -102,6 +103,20 @@
 			"My team and I started an idea and six weeks later we finished with a multi-touch table prototype like the Microsoft surface but in a low cost approach."
 		]}
 	]},
+
+	{"title":"Certifications","type":"timeline","content":[
+		{"title":"Zend PHP Certified Engineer","time":"2009","content":[
+			"In 2009 I became a Zend PHP Certified Engineer after approve the exam done in Pearson."
+		]},
+		{"title":"Apple Certified Technical Coordinator","time":"2008","content":[
+			"In 2008 I became a Apple Certified Technical Coordinator after attending a 4 days course and approve the exam done in an Apple Training Center. In the course we mainly focused on XServe and Mac OSX Server."
+		]},
+		{"title":"Apple Certified Support Professional","time":"2008","content":[
+			"In 2008 I became a Apple Certified Support Professional after attending a 3 days course and approve the exam done in an Apple Training Center. In the course we mainly focused on Mac OSX Client."
+		]}
+	]},
+
+
 
 	{"title":"Education","type":"timeline","content":[
 		{"title":"Computer Science Degree","time":"2007 - present","content":[

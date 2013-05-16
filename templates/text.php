@@ -1,5 +1,5 @@
 <?php include_once 'partial_text.php'; function tpl_section_text($data) { ?>
-                <div class="cv-section col-1 fixed">
+                <div class="cv-section col-1 fixed" id="<?= $data['id'] ?>">
                     <h2 class="cv-section-name"><?= $data['title'] ?></h2>
                     <ul class="cv-section-items">
                         <li class="cv-item">

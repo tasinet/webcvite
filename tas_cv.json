@@ -8,7 +8,7 @@
 
 	{"title":"Personal Details","type":"personal","content":[
 		{"Name":"Tasos Bitsios"},
-		{"Day of Birth":"25th June 1985"},
+		{"Model":"'85"},
 		{"Nationality":"Greek"},
 		{"Phone":"+44 7906 69 18 09"},
 		{"Email":"tasos@bitsios.com"},
@@ -35,6 +35,7 @@
 			]}
 		]}
 	]},
+
 	{"title":"Projects","type":"timeline","content":[
 		{"title":"YouRad.io","subtitle":"http://YouRad.io","time":"2011 - present","content":[
 			"This this this and that."
@@ -49,7 +50,7 @@
 		{"title":"Data Stores","content":["MongoDB, SQL/MySQL, SQLite3, Memcached, Redis"]},
 		{"title":"Libraries","content":["Gearman"]},
 		{"title":"Platforms","content":["Linux, Mac OSX, Windows, Virtualized Environments (AWS, Rackspace, Heroku)"]},
-		{"title":"Others","content":[
+		{"title":"Other Stuff","content":[
 			{"type":"list","content":[
 				"Scrum",
 				"Software design patterns",
