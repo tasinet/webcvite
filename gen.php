@@ -4,9 +4,13 @@ include_once 'templates/header.php';
 include_once 'templates/footer.php';
 include_once 'common.php';
 
-$datafile = $argc > 1 ? $argv[1] : "chris_cv.json";
+$datafile = $argc > 1 ? $argv[1] : "tas_cv.json";
 
 $data = json_decode( file_get_contents($datafile), true );
+
+if (!$data) {
+	die("bad JSON file!\n");
+}
 
 tpl_header($data);
 
