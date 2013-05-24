@@ -1,29 +1,28 @@
 {"meta":{"title":"Tasos Bitsios - Software Engineer - Resumee","description":"Tasos Bitsios personal website","keywords":"tasos bitsios, cv, curriculum, developer, php, mysql"},
 
-"title":"Tasos Bitsios","subtitle":"Software Engineer",
+"title":"Tasos Bitsios","subtitle":"Full Stack Web Engineer",
 
 "footer":"© 2013 Tasos Bitsios. All rights reserved.",
 
 "sections":[
 
 	{"title":"Profile","type":"text","content":[
-		"<b>Full Stack Web Software Engineer</b>",
-		"I have had a passion for technology since before I can remember myself. I am told that my first programming assignment was at age 5, when I successfully scheduled a VCR to record something for my Grandparents. Since then, I have been infatuated with our ability to create things online with minimal cost, accessible by billions of people. I am particularly interested in <b>scalability</b> and <b>security</b>. I am currently trying to start-up my project, YouRad.io, into a company."
+		"I have had a passion for technology since before I can remember myself. I am told that my first programming assignment was at age 5, when I successfully scheduled a VCR to record something for my Grandparents. Since then, I have been infatuated with our ability to create things online with minimal cost, accessible by millions of people. I am particularly interested in <b>scalability</b> and <b>security</b>. I am currently starting-up my project, YouRad.io, into a company."
 	]},
 
 	{"title":"Personal Details","type":"personal","content":[
 		{"Name":"Tasos Bitsios"},
 		{"Nationality":"Greek"},
 		{"Phone":"+44 7906 69 18 09"},
-		{"Email":"tasos@bitsios.com"},
-		{"Languages":"<span class=\"float-left\">English - Excellent<br>Greek - Excellent<br/>German - Somewhat</span>"}
+		{"Email":"tasinet@tasinet.com"},
+		{"Spoken Languages":"<span class=\"float-left\">English - Excellent<br>Greek - Excellent<br/>German - Somewhat</span>"}
 	]},
 	
 	{"title":"Work Experience","type":"timeline","content":[
-		{"title":"Software Engineer","subtitle":"GREE UK, Ltd, Full-Time","time":"August 2012 - Present","content":[
+		{"title":"Software Engineer","subtitle":"GREE UK, Ltd, Full-Time","time":"2012 - 2013","content":[
 			"GREE is a Japanese social gaming giant. I worked in its UK studio during its infancy, as a backend and frontend software engineer. We worked with a proprietary PHP framework and sharded SQL database solution, Gearman, MongoDB for analytics, Vagrant for VM management and Cordova/HTML5 on the frontend. I contributed a forked version of our PHP framework with 20~30% reduced function calls (on average), automatically generated client-server contracts (DTOs) and designed a NoSQL analytics/reporting backend."
 		]},
-		{"title":"Software Engineer","subtitle":"Fanatix Ltd, Full-Time","time":"November 2009 - May 2012","content":[
+		{"title":"Software Engineer","subtitle":"Fanatix Ltd, Full-Time","time":"2010 - 2012","content":[
 			"Core developer. Involved from day one, I designed, developed, administered and maintained the Fanatix backend alongside CTO Peter Bevan.",
 			{"type":"list","content":[
 				"NoSQL data design, optimisation for scalability, administration (sharded MongoDB).",
@@ -36,7 +35,7 @@
 	]},
 
 	{"title":"Projects","type":"timeline","content":[
-		{"title":"YouRad.io","subtitle":"http://youRad.io","time":"2011 - present","content":[
+		{"title":"YouRad.io","subtitle":"http://yourad.io","time":"2011 - present","content":[
 			"I started YouRad.io as a personal project in October 2011. I developed this \"Social Media Player\" to aggregate media links from social accounts (Facebook) for consumption. Recognises Youtube, Soundcloud and Vimeo links. It uses a heuristic algorithm to decide \"music/not music\" (and separate the two) and offers \"star\", \"tag\", \"like\" and \"comment\" functionality. The app-like interface, written in Javascript, allows for navigation without interrupting the embedded player. Front-end styled with Bootstrap (by Twitter). Served from nginx and MongoDB, hosted on Amazon EC2. <b>Currently seeking funding.</b>"
 		]},
 		{"title":"Twitter Trend Viewer","subtitle":"http://www.twittertrendviewer.com","time":"2012","content":[

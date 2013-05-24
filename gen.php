@@ -12,6 +12,8 @@ if (!$data) {
 	die("bad JSON file!\n");
 }
 
+$data = linkify($data);
+
 tpl_header($data);
 
 foreach($data['sections'] as $section) {
